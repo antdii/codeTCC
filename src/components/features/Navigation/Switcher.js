@@ -5,7 +5,8 @@ import Home, {
     NossoTrabalhoPage,
     BlogPage,
     ParticipePage,
-    LoginPage
+    LoginPage,
+    CadastroPage
 } from "../../../pages"
 
 const Switcher = () => (
@@ -24,6 +25,9 @@ const Switcher = () => (
         </Route>
         <Route path="/login">
             <LoginPage />
+        </Route>
+        <Route path="/cadastro/:tipo">
+            <CadastroPage />
         </Route>
         <Route path="/">
             <Home />

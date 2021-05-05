@@ -10,7 +10,8 @@ const Password = () => {
         type: "password",
         id: "password",
         placeholder: "••••••••••",
-        isFocused: false
+        isFocused: false,
+        hidden: true
     };
 
     return < div className="mt-3 flex flex-col" >

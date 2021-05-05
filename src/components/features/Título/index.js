@@ -4,7 +4,7 @@ import { HOME } from "../../../constants/routes"
 
 const Título = () => {
     return <Link to={HOME.link}
-        className="mr-32 w-1/4
+        className="mr-16 w-1/3
                             xs:text-base xs:ml-2 xs:mr-1 xs:w-full
                             sm:text-base sm:ml-3 sm:mr-2 sm:w-2/5 
                             md:text-base md:ml-3 md:mr-2 md:w-2/5 

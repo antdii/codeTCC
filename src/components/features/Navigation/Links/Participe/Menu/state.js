@@ -10,18 +10,18 @@ export const items = [
             route: "git"
         }, {
             name: "Seja Colaborador",
-            route: "cadastro-voluntario"
+            route: "cadastro/usuario"
         },]
     },
     {
-        categoryName: "Sua ideia",
+        categoryName: "Sua Sugestão",
         links: [{
-            name: "Cadastre sua ideia",
-            route: "cadastro-ideia"
+            name: "Cadastre sua Sugestão",
+            route: "cadastro/Sugestao"
         },
         {
-            name: "Acompanhe sua ideia",
-            route: "sobre-ideia"
+            name: "Acompanhe sua Sugestão",
+            route: "sobre/sugestao"
         }, ]
     }
 ]

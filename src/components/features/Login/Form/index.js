@@ -2,6 +2,7 @@ import React from "react"
 import Email from "./Email"
 import Password from "./Password"
 import LoginButton from "./Submit"
+
 const Form = () => {
     return (<form className="xs:w-11/12 xs:mt-2 xs:pb-4 
                              sm:w-1/2 sm:mt-10 sm:pb-6

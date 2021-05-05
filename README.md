@@ -5,12 +5,10 @@
 
 ## Falta fazer
 - [x] refazer README
-- [x] Inserir conteúdo na tela inicial
-- [x] configurar esquemas de inserção de projetos
-- [x] Fazer as páginas internas: 16 páginas (ou rotas) kkkkkkkkkk
-- [x] Integração com git
-- [x] Configurar página de cadastro
-- [x] Banco de dados (backend Completo)
+- [] Inserir conteúdo na tela inicial
+- [] Configurar página de cadastro de usuário*
+- [] Configurar página de cadastro de projeto*
+- [] Banco de dados (backend Completo)
 
 ## Pra executar no seu pc
 Clone o projeto >> Remove package-lock.json >> executa 'npm install' no terminal do IDE.

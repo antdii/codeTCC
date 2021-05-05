@@ -1,19 +1,19 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { BrandButtonDefault as Button } from "../../../../../../library/Button"
+import { BrandButtonDefault } from "../../../../../../library/Button"
+import CadastreSugestaoButton from "../../../../../CadastreSugestao"
 
 
 const RequestButton = () => {
 
     const login = (e) => e.preventDefault()
 
-    return <Link to="/features/request-feature">
-        <Button
-            type="submit"
-            value="Request"
-            event={login}
-            classes="rounded-tr-none rounded-tl-none text-xs w-full" />
-    </Link>
+    return <BrandButtonDefault 
+        type="button"
+        value=" "
+        classes="rounded-tr-none rounded-tl-none text-xs w-full"/>
 }
+
+
 
 export default RequestButton

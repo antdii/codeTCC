@@ -11,7 +11,9 @@ const Linker = () => (
             <SobreLink />
             <NossoTrabalhoLink />
             
-            <li className="xl:mr-6 sm:mr-8 md:mr-8 mr-4"><NavLink to={ROUTES.BLOG.link} activeClassName="cursor-pointer text-orange-400" >{ROUTES.BLOG.name}</NavLink></li>
+            <li className="xl:mr-6 sm:mr-8 md:mr-8 mr-4">
+                <NavLink to={ROUTES.BLOG.link} 
+                    activeClassName="cursor-pointer text-orange-400" >{ROUTES.BLOG.name}</NavLink></li>
             <ParticipeLink />
             
         </ul>
